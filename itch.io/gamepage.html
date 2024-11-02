@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacking Challenge - Game Page</title>
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #00ff99;
+            font-family: Consolas, monospace;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .game-page {
+            max-width: 800px;
+            width: 100%;
+            margin: 20px;
+            padding: 20px;
+            background: #111;
+            border: 2px solid #00ff99;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 255, 153, 0.5);
+        }
+        h1, h2 {
+            color: #00ff99;
+            text-shadow: 0 0 5px #00ff99;
+        }
+        p, ul {
+            color: #c1c1c1;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 5px 0;
+        }
+        ul li::before {
+            content: "• ";
+            color: #00ff99;
+        }
+        a {
+            color: #00ff99;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-shadow: 0 0 5px #00ff99;
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 255, 153, 0.3);
+        }
+        .screenshot-gallery {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .screenshot-gallery img {
+            width: 32%;
+            border-radius: 10px;
+            transition: transform 0.2s;
+        }
+        .screenshot-gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(0, 255, 153, 0.5);
+        }
+        .cta {
+            color: #fff;
+            background-color: #00ff99;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .cta:hover {
+            background-color: #009966;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-page">
+        <h1>Hacking Challenge</h1>
+        <p><em>By [InnovateWaves Labs]</em></p>
+
+        <img src="Image/oj6f5nq5.jpg" alt="Your Game Cover Image">
+
+        <h2>About the Game</h2>
+        <p>
+            Welcome to <strong>Hacking Challenge</strong>, a lightweight and smooth cyber security adventure designed to be easy to play and rich with learning opportunities.
+            <br><br>
+            In <strong>Hacking Challenge</strong>, players dive into an engaging world of puzzles and missions, where each challenge brings you closer to mastering key concepts in cyber security. Test your skills in identifying threats, defending networks, and solving realistic hacking scenarios while sharpening your knowledge in a fun, interactive way.
+            <br><br>
+            <em>Embark on a journey filled with hands-on challenges, strategic exploration, and cyber security puzzles that make learning both thrilling and accessible.</em>
+        </p>
+
+        <h2>Features</h2>
+        <ul>
+            <li>🕹️ Engaging puzzle-solving challenges</li>
+            <li>💻 Learn essential concepts in cyber security</li>
+            <li>🌎 Explore a virtual world filled with cyber threats and defenses</li>
+            <li>🧩 Unlock achievements by solving security-related puzzles and tasks</li>
+            <li>🛡️ Real-world scenarios to enhance cyber security knowledge</li>
+            <li>🎶 Immersive soundtrack and visuals for a realistic experience</li>
+        </ul>
+
+        <h2>Screenshots</h2>
+        <div class="screenshot-gallery">
+            <img src="Image/Screenshot (19).jpg" alt="Screenshot 1">
+            <img src="Image/Screenshot (20).jpg" alt="Screenshot 2">
+            <img src="Image/Screenshot (21).jpg" alt="Screenshot 3">
+            <img src="Image/Screenshot (22).jpg" alt="Screenshot 4">
+            <img src="Image/Screenshot (23).jpg" alt="Screenshot 5">
+            <img src="Image/Screenshot (25).jpg" alt="Screenshot 6">
+            <img src="Image/Screenshot (26).jpg" alt="Screenshot 7">
+            <img src="Image/Screenshot (27).jpg" alt="Screenshot 8">
+            <img src="Image/Screenshot (28).jpg" alt="Screenshot 9">
+            <img src="Image/Screenshot (29).jpg" alt="Screenshot 10">
+        </div>
+
+        <h2>Controls</h2>
+        <ul>
+            <li><strong>Register:</strong> mouse & keyboard</li>
+            <li><strong>Login:</strong> Right Click</li>
+            <li><strong>Select Level:</strong> Right click</li>
+            <li><strong>Hint:</strong> Right click</li>
+            <li><strong>End Game:</strong> Right click</li>
+            <li><strong>Connect to us:</strong> Right click</li>
+        </ul>
+
+        <h2>System Requirements</h2>
+        <ul>
+            <li><strong>OS:</strong> Windows</li>
+            <li><strong>Processor:</strong> Intel</li>
+            <li><strong>Memory:</strong> 1 GB RAM</li>
+            <li><strong>Graphics:</strong> System</li>
+            <li><strong>Storage:</strong> 20 MB available space</li>
+        </ul>
+
+        <h2>Follow Us</h2>
+        <p>
+            <a href="https://www.linkedin.com/company/innovatewavelabs/?viewAsMember=true" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/mishra9759harshit" target="_blank">GitHub</a> |
+            <a href="https://innovatewave.vercel.app/" target="_blank">Website</a> |
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0y2lyWcOn1IcT-eBIkPZAFwnts7wy0_pvJTzgdjmc811KEg/viewform?usp=sf_link" target="_blank">Suggestions</a>
+        </p>
+        <iframe frameborder="0" src="https://itch.io/embed/3080986?linkback=true&amp;fg_color=222222" width="552" height="167"><a href="https://innovatewavelabs.itch.io/hacking-challenge">Hacking Challenge by innovatewavelabs</a></iframe>
+        <div class="cta">
+            <p><strong><a href="https://innovatewavelabs.itch.io/hacking-challenge" style="color: #00ff99; text-decoration: none;">Download now and start your adventure!</a></strong></p>
+    </div>
+</body>
+</html>
